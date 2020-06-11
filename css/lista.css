@@ -1,0 +1,55 @@
+body {background: #F5F5F5;}
+
+h1 {font-size: 3em;text-align: center;font-family: serif;color: #000000bf;}
+
+input.buscar {
+    width: 63%;
+    margin: 2% 10%;
+    font-size: 132%;
+    padding: 2%;
+    color: #00000069;
+    border-radius: 14px;
+    border: 1px solid #039be554;
+    background: #d1fffd82;
+}
+
+button.CerrarSesion {
+    right: 1%;
+    top: 3%;
+    position: absolute;
+    -webkit-appearance: none;
+    border: 1px solid #09ffc630;
+    border-radius: 20px;
+    padding: 2%;
+    font-size: 19px;
+    color: white;
+    background: #0095ffa6;
+}
+
+table.tabla_empleados {
+    width: 100%;
+    background: #00ffc400;
+}
+
+td {
+    color: black;
+    font-size: 16px;
+    border-bottom: 2px solid #10adf470;
+    padding: 1%;
+}
+
+button.Agregar{
+    RIGHT: 1%;
+    top: 24%;
+    position: absolute;
+    -webkit-appearance: none;
+    border: 1px solid #09ffc630;
+    border-radius: 20px;
+    padding: 2%;
+    font-size: 15px;
+    color: white;
+    background: #0095ff;
+}
+img {
+    width: 30px;
+}

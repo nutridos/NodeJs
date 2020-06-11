@@ -1,0 +1,55 @@
+.login {
+    margin: 5% 21%;
+    padding: 7% 11%;
+    border: 1px solid #0000000d;
+    background: #81d4fab8;
+    border-radius: 25px;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+
+body {
+    background: url(./imagen.jpg);
+}
+
+.form {
+    text-align: center;
+    color: #0D47A1;
+    font-family: serif;
+    font-size: 1.3em;
+}
+input {
+    color: #616161;
+    border: 0px;
+    background: border-box;
+    border-bottom: 1px solid #0d47a154;
+    width: 50%;
+    height: 35px;
+    font-size: 14px;
+}
+
+button.btn.btn-primary {
+    color: #757575;
+    border: 0px;
+    background: #26C6DA;
+    margin: 8% 2%;
+    width: 26%;
+    height: 33px;
+    -webkit-appearance: none;
+}
+
+
+button.btn.btn-secondary {
+    color: #757575;
+    border: 0px;
+    background: #26C6DA;
+    margin: 8% 2%;
+    width: 26%;
+    height: 33px;
+    -webkit-appearance: none;
+}

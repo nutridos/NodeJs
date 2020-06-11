@@ -1,0 +1,68 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+/* Estilos Mensaje */
+.message {
+  text-decoration: none;
+  -moz-transition: opacity 0.2s ease-in-out, -moz-transform 0.2s ease-in-out;
+  -webkit-transition: opacity 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+  -ms-transition: opacity 0.2s ease-in-out, -ms-transform 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  height: 2.75em;
+  line-height: 2.75em;
+  opacity: 0;
+}
+
+.message:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
+.message:before {
+  margin-right: 0.5em;
+}
+
+.message.visible {
+  -moz-transform: scale(1);
+  /* -webkit-transform: scale(1); */
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+
+.message.success {
+  color: #1cb495;
+  font-size: 24px;
+  position: fixed;
+  right: 136px;
+  bottom: 38px;
+  padding: 0px 28px;
+  border-radius: 15px;
+  border: 2px solid #1cb495;
+}
+
+.message.success:before {
+  content: '\f00c';
+}
+
+.message.failure {
+  color: #ff2361;
+  font-size: 24px;
+  position: fixed;
+  right: 136px;
+  bottom: 38px;
+  padding: 0px 28px;
+  border-radius: 15px;
+  border: 2px solid #ff2361;
+}
+
+
+.message.failure:before {
+  content: '\f119';
+}
